@@ -262,7 +262,7 @@ if (require.main === module) {
   (async () => {
     await initDistributedCore();
     
-    app.listen(PORT, () => {
+    app.listen(PORT, '0.0.0.0', () => {
       console.log(`[Distributed API] 服务器启动: 0.0.0.0:${PORT}`);
       console.log(`
 === 望易分布式API ===
