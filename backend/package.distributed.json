@@ -1,0 +1,23 @@
+{
+  "name": "wangyi-distributed",
+  "version": "1.0.0",
+  "description": "望易AI区块链 - 分布式智能网络",
+  "main": "distributed_api.cjs",
+  "scripts": {
+    "start": "node distributed_api.cjs",
+    "pm2": "pm2 start ecosystem.config.cjs"
+  },
+  "keywords": [
+    "wangyi",
+    "ai-blockchain",
+    "v5",
+    "distributed",
+    "consciousness"
+  ],
+  "author": "TwinCosmos",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "better-sqlite3": "^9.2.2"
+  }
+}
